@@ -12,6 +12,7 @@ void  EditorMain(int* instancePtrAddress, int* hPrevInstancePtrAddress, int* hWn
 
 	g_sample = new DXEditor(screenWidth, screenHeight, L"D3D12 Hello Window");
 
+
 	g_sample->OnInit();
 	
 }
